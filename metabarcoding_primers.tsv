@@ -1,5 +1,5 @@
 pcr_primer	pcr_primer_name	pcr_primer_name_published	pcr_primer_reference	direction	assays
-ACTCCTACGGGAGGCAGCAG	16S-338F	338F	https://cir.nii.ac.jp/crid/1570009750603612672	forward	
+ACTCCTACGGGAGGCAGCAG	16S-V3-338F	338F	https://cir.nii.ac.jp/crid/1570009750603612672	forward	
 GTGCCAGCMGCCGCGGTAA	16S-V4-515F-C	515F	https://doi.org/10.1073/pnas.1000080107	forward	
 GTGYCAGCMGCCGCGGTAA	16S-V4-515F-Y	515F-Y	https://doi.org/10.1111/1462-2920.13023	forward	
 GGACTACHVGGGTWTCTAAT	16S-V4-806R	806R	https://doi.org/10.1073/pnas.1000080107	reverse	

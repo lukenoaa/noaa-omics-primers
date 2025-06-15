@@ -1,35 +1,22 @@
-assay_name	targetTaxonomicAssay	targetTaxonomicScope	target_gene	target_subfragment	ampliconSize	pcr_primer_forward	pcr_primer_reverse	Protocol	Notes on Selection	Other notes
-Kelly_metazoan_mt16S	rRNA gene sequencing using primers 16S Kelly F and 16S Kelly R	metazoans	16S rRNA		114	AGTTACYYTAGGGATAACAGCG	CCGGTCTGAACTCAGATCAYGT			
-Stoeck_NCOG-phytoplankton_18S_V4	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYR	https://www.protocols.io/view/amplicon-library-preparation-bp2l6b4j5gqe/v1	"NCOG time series, PR2 benchmarked primer set"	NCOG protocol is for a 1-step PCR; Roscoff uses an updated reverse V4 primer from Piredda et al. 2017 (https://doi.org/10.1093/femsec/fiw200)
-Stoeck_phytoplankton_18S_V4	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRA			
-Stoeck_PR2_phytoplankton_18S_V4	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	87 | 186	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRATGA			
-Stoeck_Balzano-phytoplankton_18S_V4	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRR			
-deJonge_Ceph_18S	18S rRNA gene sequencing using primers Ceph18S_F and Ceph18S_R	cephalopods	18S		140 | 190	CGCGGCGCTACATATTAGAC	GCACTTAACCGACCGTCGAC			
-	cephalopods	Also captures non-target: Cephalopods	18S		140 - 190	CGCGGCGCTACATATTAGAC	GCACTTAACCGACCGTCGAC	https://zenodo.org/records/14834590	MURI tested	"MURI (NWFSC, SWFSC, UW, SIO)"
-ssu12sv5v6_mifish	12S rRNA gene sequencing targeting the V5-V6 region using primers MiFish-F V2 and MiFish-R	fishes	12S rRNA	V5-V6	163 | 185	GCCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG			
-MiFishMod_UniversalTeleost_12S	12S rRNA gene sequencing targeting the V5-V6 region using primers MiFish-U-F_mod and MiFish-R	fishes	12S rRNA	V5-V6	163 | 185	GCCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG			
-	Fish	"Also captures non-target: Vertebrates including marine mammals, birds, reptiles"	12S		163 - 185	GCCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG	https://zenodo.org/records/14834590	MURI tested; 2 x 150 PE sequencing also acceptable for sequencing	"The forward MiFish primer was modified in Sales et al. 2019 although it is not explicitly stated in the manuscript. MURI (NWFSC, SWFSC, UW, SIO)"
-MutS_coral	MutS gene sequencing using primers using primers MutS eDNA F and MutS eDNA R	Octocorals	MutS			GCTTATCCAGATTGGTAAGTTCTATGAA	ACAGTCCTCTAAATTACAACTAGGAGAATA			
-MutS_coral_Paragorgia	MutS gene sequencing using primers using primers MutS eDNA F and MutS eDNA R Paragorgia	Octocorals-fills in Paragorgia	MutS			GCTTATCCAGATTGGTAAGTTCTATGAA	GCAGTCTTCTAAATTGCAACCGGGAGAATA			
-LerayFolmer_metazoan_CO1	CO1 gene sequencing using primers Leray F and Folmer R	Metazoans	CO1		313	GGWACWGGWTGAACWGTWTAYCCYCC	TAAACTTCAGGGTGACCAAAAAATCA	"	https://www.mbari.org/wp-content/uploads/2016/01/Folmer_94MMBB.pdf							"		
-	Phytoplankton and Zooplankton		COI		median: 308	GGWACWGGWTGAACWGTWTAYCCYCC	TAAACTTCAGGGTGACCAAAAAATCA	https://mbari-bog.github.io/MBON-Protocols/eDNA_COI_PCR_V2.html	Protocol in use and stable	MBARI
-LerayGeller_metazoan_CO1	CO1 gene sequencing using primers Leray F and Leray R	Metazoans	CO1		313	GGWACWGGWTGAACWGTWTAYCCYCC	TANACYTCnGGRTGNCCRAARAAYCA			
-ssu18sv9_emp	18S rRNA gene sequencing targeting the V9 region using primers 1391F and EukBr	"Eukaryotes, with a focus on microbial eukaryotic lineages"	18S rRNA	V9	260	GTACACACCGCCCGTC	TGATCCTTCTGCAGGTTCACCTAC			
-AmaralZettler_MBON_phytoplankton_18S_V9	18S V9 rRNA gene sequencing targeting the V9 region using primers Euk1391F and EukBr (1510r)	"Eukaryotes, with a focus on microbial eukaryotic lineages like phytoplankton"	18S rRNA	V9	87 | 186	GTACACACCGCCCGTC	TGATCCTTCTGCAGGTTCACCTAC			
-	Phytoplankton and Zooplankton		18S	V9	median: 127	GTACACACCGCCCGTC	TGATCCTTCTGCAGGTTCACCTAC	dx.doi.org/10.17504/protocols.io.36wgq3d8olk5/v2	Protocol in use and stable	MBARI
-MiFish_UniversalTeleost_12S	12S rRNA gene sequencing targeting the V5-V6 region using primers MiFish-U-F  and MiFish-R	fishes	12S rRNA	V5-V6	163 | 185	GTCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG			
-	Bony Fish	Also captures non-target: Bacteria	12S		median: 170	GTCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG	dx.doi.org/10.17504/protocols.io.e6nvwdm39lmk/v2	Protocol has been used for datasets but currently undergoing testing and revision of PCR conditions for future 12S work to optimize diversity	MBARI
-ssu16sv4v5_emp	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V4-V5	411	GTGYCAGCMGCCGCGGTAA	CCGYCAATTYMTTTRAGTTT			
-Parada_universal_SSU16S_V4	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V4-V5	336 | 486	GTGYCAGCMGCCGCGGTAA	CCGYCAATTYMTTTRAGTTT			
-	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V4-V5	336 - 486	GTGYCAGCMGCCGCGGTAA	CCGYCAATTYMTTTRAGTTT	https://mbari-bog.github.io/MBON-Protocols/eDNA_16S_PCR_V3.html	"Widely adopted and most benchmarked, MBARI using this with Rockfish cruises"	MBARI
-EMP_universal_SSU16S_V4	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V4	291	GTGYCAGCMGCCGCGGTAA	GGACTACNVGGGTWTCTAAT			
-EMP_universal_SSU16S_V4	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V4	291	GTGYCAGCMGCCGCGGTAA	GGACTACHVGGGTWTCTAAT			
-Machida_metazoan_18S_V8	18S V7-8 rRNA gene sequencing targeting the V7-8 region using primers Machida_18S V78 F and 18S Machida - Nex - R	Metazoans	18S rRNA	V7-8	330	GYGGTGCATGGCCGTTSKTRGTT	GTGTGYACAAAGGBCAGGGAC			
-Baker_marmam_dLoop	dloop gene sequencing using primers Baker F Dlp1.5-H and Baker R Oordlp4	Marine Mammals	dloop		389	TCACCCAAAGCTGRARTTCTA	GCGGGTTGCTGGTTTCACG			
-	Marine Mammals	Also captures non-target: Mammals	dloop		389	TCACCCAAAGCTGRARTTCTA	GCGGGTTGCTGGTTTCACG	https://zenodo.org/records/11398094	MURI tested	"MURI (NWFSC, SWFSC, UW, SIO)"
-WhiteSterling_phytoplankton_ITS1	ITS1 gene sequencing using primers ITS1 F and Pn-ITS1 - Nex - R	Diatoms	ITS1		235 | 370_	TCCGTAGGTGAACCTGCGG	CATCCACCGCTGAAAGTTGTAA			
-AmaralZettler_phytoplankton_18S_V9	18S V9 rRNA gene sequencing targeting the V9 region using primers 18S V9 1389 F and 18s v9 1510 R	"Eukaryotes, with a focus on microbial eukaryotic lineages like phytoplankton"	18S rRNA	V9	87 | 186	TTGTACACACCGCCC	CCTTCYGCAGGTTCACCTAC			
-AmaralZettler_Tara_phytoplankton_18S_V9	18S V9 rRNA gene sequencing targeting the V9 region using primers 18S V9 1389 F and 18s v9 1510 R	"Eukaryotes, with a focus on microbial eukaryotic lineages like phytoplankton"	18S rRNA	V9	87 | 186	TTGTACACACCGCCC	CCTTCYGCAGGTTCACCTAC			
-	Phytoplankton	"Also captures non-target: Zooplankton, other eukaryotes "	18S	V9	87 - 186	TTGTACACACCGCCC	CCTTCYGCAGGTTCACCTAC	https://www.protocols.io/view/amplicon-library-preparation-bp2l6b4j5gqe/v1	"NCOG time series, PR2 benchmarked primer set"	NCOG protocol is for a 1-step PCR
-ssu16sv3v4_806RB	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V3-V4		ACTCCTACGGGAGGCAGCAG	GGACTACNVGGGTWTCTAAT			
-ssu16sv3v4_806R	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V3-V4		ACTCCTACGGGAGGCAGCAG	GGACTACHVGGGTWTCTAAT			
+assay_name	targetTaxonomicAssay	targetTaxonomicScope	target_gene	target_subfragment	ampliconSize	pcr_primer_forward	pcr_primer_reverse	assay_reference
+AmaralZettler_phytoplankton_18S_V9	Phytoplankton	"Also captures non-target: Zooplankton, other eukaryotes "	18S rRNA (SSU eukaryote)	V9	87 | 186	TTGTACACACCGCCC	CCTTCYGCAGGTTCACCTAC	https://www.protocols.io/view/amplicon-library-preparation-bp2l6b4j5gqe/v1
+Baker_marmam_dLoop	Marine Mammals		D-loop		389	TCACCCAAAGCTGRARTTCTA	GCGGGTTGCTGGTTTCACG	https://zenodo.org/records/11398094
+deJonge_Ceph_18S	Cephalopods		18S rRNA (SSU eukaryote)		140 | 190	CGCGGCGCTACATATTAGAC	GCACTTAACCGACCGTCGAC	https://zenodo.org/records/14834590
+EMP_universal_SSU16S_V4	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V4	291	GTGYCAGCMGCCGCGGTAA	GGACTACNVGGGTWTCTAAT	
+Kelly_metazoan_mt16S	Metazoans		16S rRNA (LSU mitochondria)		114	AGTTACYYTAGGGATAACAGCG	CCGGTCTGAACTCAGATCAYGT	
+LerayFolmer_metazoan_CO1	Metazoans		COI		313	GGWACWGGWTGAACWGTWTAYCCYCC	TAAACTTCAGGGTGACCAAAAAATCA	https://mbari-bog.github.io/MBON-Protocols/eDNA_COI_PCR_V2.html
+LerayGeller_metazoan_CO1	Metazoans		COI		313	GGWACWGGWTGAACWGTWTAYCCYCC	TANACYTCNGGRTGNCCRAARAAYCA	
+Machida_metazoan_18S_V8	Metazoans		18S rRNA (SSU eukaryote)	V7-8	330	GYGGTGCATGGCCGTTSKTRGTT	GTGTGYACAAAGGBCAGGGAC	
+MiFish_UniversalTeleost_12S	Bony fishes	Also captures non-target: Bacteria	12S rRNA (SSU mitochondria)	V5-V6	163 | 185	GTCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG	https://doi.org/10.17504/protocols.io.e6nvwdm39lmk/v2
+MutS_coral	Octocorals		mutS			GCTTATCCAGATTGGTAAGTTCTATGAA	ACAGTCCTCTAAATTACAACTAGGAGAATA	
+MutS_coral_Paragorgia	Octocorals-fills in Paragorgia		mutS			GCTTATCCAGATTGGTAAGTTCTATGAA	GCAGTCTTCTAAATTGCAACCGGGAGAATA	
+ssu12sv5v6_mifish	Fish	"Also captures non-target: Vertebrates, bacteria"	12S rRNA (SSU mitochondria)	V5-V6	163 | 185	GCCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG	https://github.com/aomlomics/protocol-pcr-ssu12sv5v6-mifish
+ssu16sv3v4_806R	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V3-V4		ACTCCTACGGGAGGCAGCAG	GGACTACHVGGGTWTCTAAT	
+ssu16sv3v4_806RB	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V3-V4		ACTCCTACGGGAGGCAGCAG	GGACTACNVGGGTWTCTAAT	
+ssu16sv4v5_parada	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V4-V5	336 | 486	GTGYCAGCMGCCGCGGTAA	CCGYCAATTYMTTTRAGTTT	https://github.com/aomlomics/protocol-pcr-ssu16sv4v5-parada
+ssu18sv9_amaralzettler	"Phytoplankton, zooplankton"		18S rRNA (SSU eukaryote)	V9	87 | 186	GTACACACCGCCCGTC	TGATCCTTCTGCAGGTTCACCTAC	https://github.com/aomlomics/protocol-pcr-ssu18sv9-amaralzettler
+Stoeck_Balzano-phytoplankton_18S_V4	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRR	
+Stoeck_NCOG-phytoplankton_18S_V4	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYR	https://www.protocols.io/view/amplicon-library-preparation-bp2l6b4j5gqe/v1
+Stoeck_phytoplankton_18S_V4	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRA	
+Stoeck_PR2_phytoplankton_18S_V4	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	87 | 186	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRATGA	
+WhiteSterling_phytoplankton_ITS1	Diatoms		ITS1		235 | 370	TCCGTAGGTGAACCTGCGG	CATCCACCGCTGAAAGTTGTAA	
