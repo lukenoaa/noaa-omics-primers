@@ -1,25 +1,25 @@
 assay_name	targetTaxonomicAssay	targetTaxonomicScope	target_gene	target_subfragment	ampliconSize	pcr_primer_forward	pcr_primer_reverse	assay_reference
-Fish-12S-MiFish-Miya-Wangensteen	Fish	"Also captures non-target: Vertebrates, bacteria"	12S rRNA (SSU mitochondria)	V5-V6	163 | 185	GCCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG	https://github.com/aomlomics/protocol-pcr-ssu12sv5v6-mifish
-Fish-12S-MiFish-Miya	Bony fishes	Also captures non-target: Bacteria	12S rRNA (SSU mitochondria)	V5-V6	163 | 185	GTCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG	https://doi.org/10.17504/protocols.io.e6nvwdm39lmk/v2
-Metazoa-16S-Kelly	Metazoans		16S rRNA (LSU mitochondria)		114	AGTTACYYTAGGGATAACAGCG	CCGGTCTGAACTCAGATCAYGT	
-Bacteria-16S-V3V4-806R	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V3-V4		ACTCCTACGGGAGGCAGCAG	GGACTACHVGGGTWTCTAAT	
-Bacteria-16S-V3V4-806RB	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V3-V4		ACTCCTACGGGAGGCAGCAG	GGACTACNVGGGTWTCTAAT	
-Bacteria-16S-V4-EMP	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V4	291	GTGYCAGCMGCCGCGGTAA	GGACTACNVGGGTWTCTAAT	
-Bacteria-16S-V4V5-Parada	Prokaryotes	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V4-V5	336 | 486	GTGYCAGCMGCCGCGGTAA	CCGYCAATTYMTTTRAGTTT	https://github.com/aomlomics/protocol-pcr-ssu16sv4v5-parada
-Phytoplankton-18S-V4-Stoeck-Balzano	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRR	
-Phytoplankton-18S-V4-Stoeck-NCOG	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYR	https://www.protocols.io/view/amplicon-library-preparation-bp2l6b4j5gqe/v1
-Phytoplankton-18S-V4-Stoeck	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRA	
-Phytoplankton-18S-V4-Stoeck-Piredda	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	87 | 186	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRATGA	
-Cephalopod-18S-deJonge	Cephalopods		18S rRNA (SSU eukaryote)		140 | 190	CGCGGCGCTACATATTAGAC	GCACTTAACCGACCGTCGAC	https://zenodo.org/records/14834590
-Eukarya-18S-V9-AmaralZettler	"Phytoplankton, zooplankton"		18S rRNA (SSU eukaryote)	V9	87 | 186	GTACACACCGCCCGTC	TGATCCTTCTGCAGGTTCACCTAC	https://github.com/aomlomics/protocol-pcr-ssu18sv9-amaralzettler
-Metazoa-18S-V7V8-Machida	Metazoans		18S rRNA (SSU eukaryote)	V7-8	330	GYGGTGCATGGCCGTTSKTRGTT	GTGTGYACAAAGGBCAGGGAC	
-Eukarya-18S-V9-AmaralZettler-alt	Phytoplankton	"Also captures non-target: Zooplankton, other eukaryotes "	18S rRNA (SSU eukaryote)	V9	87 | 186	TTGTACACACCGCCC	CCTTCYGCAGGTTCACCTAC	https://www.protocols.io/view/amplicon-library-preparation-bp2l6b4j5gqe/v1
-Metazoa-COI-Leray-Geller-TAIA	Metazoans		COI		313	GGWACWGGWTGAACWGTWTAYCCYCC	TAIACYTCIGGRTGICCRAARAAYCA	
-Metazoa-COI-Leray-Folmer	Metazoans		COI		313	GGWACWGGWTGAACWGTWTAYCCYCC	TAAACTTCAGGGTGACCAAAAAATCA	https://mbari-bog.github.io/MBON-Protocols/eDNA_COI_PCR_V2.html
-Metazoa-COI-Leray-Geller-TANA	Metazoans		COI		313	GGWACWGGWTGAACWGTWTAYCCYCC	TANACYTCNGGRTGNCCRAARAAYCA	
-MarineMammal-Dloop-Baker	Marine Mammals		D-loop		389	TCACCCAAAGCTGRARTTCTA	GCGGGTTGCTGGTTTCACG	https://zenodo.org/records/11398094
+Fish-12S-MiFish-Miya	Actinopterygii	Also captures non-target: Bacteria	12S rRNA (SSU mitochondria)	V5-V6	163 | 185	GTCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG	https://doi.org/10.17504/protocols.io.e6nvwdm39lmk/v2
+Fish-12S-MiFish-Miya-Wangensteen	Actinopterygii	"Also captures non-target: Vertebrates, bacteria"	12S rRNA (SSU mitochondria)	V5-V6	163 | 185	GCCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG	https://github.com/aomlomics/protocol-pcr-ssu12sv5v6-mifish
+Cephalopod-18S-deJonge	Cephalopoda		18S rRNA (SSU eukaryote)		140 | 190	CGCGGCGCTACATATTAGAC	GCACTTAACCGACCGTCGAC	https://zenodo.org/records/14834590
+Anthozoa-28S-McCartin	Cnidaria: Anthozoa	Includes subclasses Hexacorallia and Octocorallia	28S rRNA (LSU eukaryote)			CGTGAAACCGYTRRAAGGG	TTGGTCCGTGTTTCAAGACG	
+Scleractinia-28S-McCartin	Cnidaria: Scleractinia	Targets order Scleractinia within subclass Hexacorallia	28S rRNA (LSU eukaryote)			AKGGAAACGAATGGRCTMAG	TCCTTGGTCCGTGTTTCAAG	
 Phytoplankton-ITS1-White-Sterling	Diatoms		ITS1		235 | 370	TCCGTAGGTGAACCTGCGG	CATCCACCGCTGAAAGTTGTAA	
-Octocoral-mutS-Everett	Octocorals		mutS			GCTTATCCAGATTGGTAAGTTCTATGAA	ACAGTCCTCTAAATTACAACTAGGAGAATA	
-Octocoral-mutS-Paragorgia	Octocorals-fills in Paragorgia		mutS			GCTTATCCAGATTGGTAAGTTCTATGAA	GCAGTCTTCTAAATTGCAACCGGGAGAATA	
-Anthozoa-28S-McCartin	"Antipatharia, Octocorallia"		28S rRNA (LSU eukaryote)			CGTGAAACCGYTRRAAGGG	TTGGTCCGTGTTTCAAGACG	
-Scleractinia-28S-McCartin	Scleractinia		28S rRNA (LSU eukaryote)			AKGGAAACGAATGGRCTMAG	TCCTTGGTCCGTGTTTCAAG	
+Phytoplankton-18S-V4-Stoeck	Eukaryota	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRA	
+Phytoplankton-18S-V4-Stoeck-Balzano	Eukaryota	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRR	
+Phytoplankton-18S-V4-Stoeck-NCOG	Eukaryota	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYR	https://www.protocols.io/view/amplicon-library-preparation-bp2l6b4j5gqe/v1
+Phytoplankton-18S-V4-Stoeck-Piredda	Eukaryota	Phytoplankton	18S rRNA (SSU eukaryote)	V4	87 | 186	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRATGA	
+MarineMammal-Dloop-Baker	Marine mammals		D-loop		389	TCACCCAAAGCTGRARTTCTA	GCGGGTTGCTGGTTTCACG	https://zenodo.org/records/11398094
+Metazoa-16S-Kelly	Metazoa		16S rRNA (LSU mitochondria)		114	AGTTACYYTAGGGATAACAGCG	CCGGTCTGAACTCAGATCAYGT	
+Metazoa-18S-V7V8-Machida	Metazoa		18S rRNA (SSU eukaryote)	V7-8	330	GYGGTGCATGGCCGTTSKTRGTT	GTGTGYACAAAGGBCAGGGAC	
+Metazoa-COI-Leray-Folmer	Metazoa		COI		313	GGWACWGGWTGAACWGTWTAYCCYCC	TAAACTTCAGGGTGACCAAAAAATCA	https://mbari-bog.github.io/MBON-Protocols/eDNA_COI_PCR_V2.html
+Metazoa-COI-Leray-Geller-TAIA	Metazoa		COI		313	GGWACWGGWTGAACWGTWTAYCCYCC	TAIACYTCIGGRTGICCRAARAAYCA	
+Metazoa-COI-Leray-Geller-TANA	Metazoa		COI		313	GGWACWGGWTGAACWGTWTAYCCYCC	TANACYTCNGGRTGNCCRAARAAYCA	
+Octocoral-mutS-Everett	Octocorallia		mutS			GCTTATCCAGATTGGTAAGTTCTATGAA	ACAGTCCTCTAAATTACAACTAGGAGAATA	
+Octocoral-mutS-Paragorgia	Octocorallia	Modified to also target Paragorgia	mutS			GCTTATCCAGATTGGTAAGTTCTATGAA	GCAGTCTTCTAAATTGCAACCGGGAGAATA	
+Eukarya-18S-V9-AmaralZettler-alt	Phytoplankton	"Also captures non-target: Zooplankton, other eukaryotes "	18S rRNA (SSU eukaryote)	V9	87 | 186	TTGTACACACCGCCC	CCTTCYGCAGGTTCACCTAC	https://www.protocols.io/view/amplicon-library-preparation-bp2l6b4j5gqe/v1
+Eukarya-18S-V9-AmaralZettler	"Phytoplankton, zooplankton"		18S rRNA (SSU eukaryote)	V9	87 | 186	GTACACACCGCCCGTC	TGATCCTTCTGCAGGTTCACCTAC	https://github.com/aomlomics/protocol-pcr-ssu18sv9-amaralzettler
+Bacteria-16S-V3V4-806R	Prokaryota	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V3-V4		ACTCCTACGGGAGGCAGCAG	GGACTACHVGGGTWTCTAAT	
+Bacteria-16S-V3V4-806RB	Prokaryota	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V3-V4		ACTCCTACGGGAGGCAGCAG	GGACTACNVGGGTWTCTAAT	
+Bacteria-16S-V4-EMP	Prokaryota	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V4	291	GTGYCAGCMGCCGCGGTAA	GGACTACNVGGGTWTCTAAT	
+Bacteria-16S-V4V5-Parada	Prokaryota	Bacteria | Archaea | chloroplasts | mitochondria	16S rRNA (SSU prokaryote)	V4-V5	336 | 486	GTGYCAGCMGCCGCGGTAA	CCGYCAATTYMTTTRAGTTT	https://github.com/aomlomics/protocol-pcr-ssu16sv4v5-parada
