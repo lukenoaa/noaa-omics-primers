@@ -9,7 +9,7 @@ Bacteria-16S-V4V5-Parada	Prokaryotes	Bacteria | Archaea | chloroplasts | mitocho
 Phytoplankton-18S-V4-Stoeck-Balzano	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRR	
 Phytoplankton-18S-V4-Stoeck-NCOG	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYR	https://www.protocols.io/view/amplicon-library-preparation-bp2l6b4j5gqe/v1
 Phytoplankton-18S-V4-Stoeck	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	270	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRA	
-Phytoplankton-18S-V4-Stoeck-PR2	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	87 | 186	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRATGA	
+Phytoplankton-18S-V4-Stoeck-Piredda	Eukaryotes	Phytoplankton	18S rRNA (SSU eukaryote)	V4	87 | 186	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRATGA	
 Cephalopod-18S-deJonge	Cephalopods		18S rRNA (SSU eukaryote)		140 | 190	CGCGGCGCTACATATTAGAC	GCACTTAACCGACCGTCGAC	https://zenodo.org/records/14834590
 Eukarya-18S-V9-AmaralZettler	"Phytoplankton, zooplankton"		18S rRNA (SSU eukaryote)	V9	87 | 186	GTACACACCGCCCGTC	TGATCCTTCTGCAGGTTCACCTAC	https://github.com/aomlomics/protocol-pcr-ssu18sv9-amaralzettler
 Metazoa-18S-V7V8-Machida	Metazoans		18S rRNA (SSU eukaryote)	V7-8	330	GYGGTGCATGGCCGTTSKTRGTT	GTGTGYACAAAGGBCAGGGAC	
