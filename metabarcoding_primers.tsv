@@ -21,20 +21,28 @@ TCACCCAAAGCTGRARTTCTA	Baker-M13dlp1.5-H	M13dlp1.5	https://doi.org/10.1046/j.1365
 GCGGGTTGCTGGTTTCACG	Baker-Oordlp4	Oordlp4	https://doi.org/10.1046/j.1365-294x.1998.00380.x | https://doi.org/10.3389/fmars.2018.00133	reverse
 CGCGGCGCTACATATTAGAC	Ceph18S-F	Ceph18S	https://doi.org/10.1098/rsos.201388	forward
 GCACTTAACCGACCGTCGAC	Ceph18S-R	Ceph18S	https://doi.org/10.1098/rsos.201388	reverse
-TAAACTTCAGGGTGACCAAAAAATCA	HCO2198	HCO2198	https://www.mbari.org/wp-content/uploads/2016/01/Folmer_94MMBB.pdf	reverse
-TCCGTAGGTGAACCTGCGG	ITS1-F	ITS1-F	https://doi.org/10.1002/lno.12189	forward
+TAAACTTCAGGGTGACCAAARAAYCA	COI-dgHCO2198	dgHCO2198	https://doi.org/10.1046/j.1095-8312.2003.00197.x	reverse
+GGTCAACAAATCATAAAGAYATYGG	COI-dgLCO1490	dgLCO1490	https://doi.org/10.1046/j.1095-8312.2003.00197.x	forward
+TAAACTTCAGGGTGACCAAAAAATCA	COI-HCO2198	HCO2198	https://www.mbari.org/wp-content/uploads/2016/01/Folmer_94MMBB.pdf	reverse
+TAIACYTCIGGRTGICCRAARAAYCA	COI-jgHCO2198	jgHCO2198	https://doi.org/10.1111/1755-0998.12138	reverse
 TANACYTCNGGRTGNCCRAARAAYCA	COI-jgHCO2198	jgHCO2198	https://doi.org/10.1111/1755-0998.12138	reverse
+TITCIACIAAYCAYAARGAYATTGG	COI-jgLCO1490	jgLCO1490	https://doi.org/10.1111/1755-0998.12138	forward
+GGTCAACAAATCATAAAGATATTGG	COI-LCO1490	LCO1490	https://www.mbari.org/wp-content/uploads/2016/01/Folmer_94MMBB.pdf	forward
+GGWACWGGWTGAACWGTWTAYCCYCC	COI-mlCOIintF	mlCOIintF	https://doi.org/10.1186/1742-9994-10-34	forward
+GGRGGRTASACSGTTCASCCSGTSCC	COI-mlCOIintR	mlCOIintR	https://doi.org/10.1186/1742-9994-10-34	reverse
+CAAAATCATAATGAAGGCATGAGC	COI-Uni-MinibarF1	Uni-MinibarF1	https://doi.org/10.1186/1471-2164-9-214	forward
+TCCACTAATCACAARGATATTGGTAC	COI-Uni-MinibarR1	Uni-MinibarR1	https://doi.org/10.1186/1471-2164-9-214	reverse
+TCCGTAGGTGAACCTGCGG	ITS1-F	ITS1-F	https://doi.org/10.1002/lno.12189	forward
+CATCCACCGCTGAAAGTTGTAA	ITS1-R-Pn	Pn-ITS1-R	https://doi.org/10.1002/lno.12189	reverse
 AGTTACYYTAGGGATAACAGCG	Kelly-16S-Metazoa-Fwd	16s_Metazoa_fwd	https://doi.org/10.7717/peerj.2444	forward
 CCGGTCTGAACTCAGATCAYGT	Kelly-16S-Metazoa-Rev	16s_Metazoa_rev	https://doi.org/10.7717/peerj.2444	reverse
 GYGGTGCATGGCCGTTSKTRGTT	Machida-18S-V7V8-F	#3	https://doi.org/10.1371/journal.pone.0046180	forward
 GTGTGYACAAAGGBCAGGGAC	Machida-18S-V7V8-R	#5_RC	https://doi.org/10.1371/journal.pone.0046180	reverse
 GTCGGTAAAACTCGTGCCAGC	MiFish-U-F	MiFish-U-F	https://doi.org/10.1098/rsos.150088	forward
 GCCGGTAAAACTCGTGCCAGC	MiFish-U-F-V2	MiFish-U-F	https://doi.org/10.1098/rsos.150088 | https://doi.org/10.1002/edn3.14	forward
-CATAGTGGGGTATCTAATCCCAGTTTG	MiFish-U-R	MiFish-U-R	https://doi.org/10.1098/rsos.150088 | https://doi.org/10.1002/edn3.14	reverse
-GGWACWGGWTGAACWGTWTAYCCYCC	COI-mlCOIinfF	mlCOIinfF	https://doi.org/10.1186/1742-9994-10-34	forward
+CATAGTGGGGTATCTAATCCCAGTTTG	MiFish-U-R	MiFish-U-R	https://doi.org/10.1098/rsos.150088	reverse
 GCTTATCCAGATTGGTAAGTTCTATGAA	Octo-eDNA-Mut2F	Octo_eDNA_Mut2F	https://doi.org/10.1016/j.dsr2.2017.09.008	forward
 ACAGTCCTCTAAATTACAACTAGGAGAATA	Octo-eDNA-Mut2R	Octo_eDNA_Mut2R	https://doi.org/10.1016/j.dsr2.2017.09.008	reverse
-GCAGTCTTCTAAATTGCAACCGGGAGAATA	Octo-MutS-Paragorgia		missing: not provided	reverse
-CATCCACCGCTGAAAGTTGTAA	Pn-ITS1-R	Pn-ITS1-R	https://doi.org/10.1002/lno.12189	reverse
+GCAGTCTTCTAAATTGCAACCGGGAGAATA	Octo-eDNA-MutS-Paragorgia		missing: not provided	reverse
 AKGGAAACGAATGGRCTMAG	Scler-28S-eDNA-F	Scler-28S-eDNA-F	https://doi.org/10.7717/peerj.18607	forward
 TCCTTGGTCCGTGTTTCAAG	Scler-28S-eDNA-R	Scler-28S-eDNA-R	https://doi.org/10.7717/peerj.18607	reverse
