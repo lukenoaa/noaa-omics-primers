@@ -1,6 +1,6 @@
-# noaa-omics-primers
+# NOAA 'Omics Metabarcoding Primers & Assays
 
-Primer and assay lists used by NOAA 'Omics researchers, compatible with [FAIRe guidelines](https://fair-edna.github.io).
+Primer and assay lists used for DNA metabarcoding by NOAA 'Omics researchers, compatible with [FAIRe guidelines](https://fair-edna.github.io).
 
 ## Primers
 
