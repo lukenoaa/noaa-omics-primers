@@ -1,4 +1,4 @@
-assay_name	targetTaxonomicAssay	targetTaxonomicScope	target_gene	target_subfragment	ampliconSize	pcr_primer_forward	pcr_primer_reverse	assay_reference
+assay_name	targetTaxonomicAssay	targetTaxonomicScope	target_gene	target_subfragment	ampliconSize	pcr_primer_forward	pcr_primer_reverse	nucl_acid_amp
 Fish-12S-MiFish-Miya	Actinopterygii	Also captures non-target: Bacteria	12S rRNA (SSU mitochondria)	V5-V6	163 | 185	GTCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG	https://doi.org/10.17504/protocols.io.e6nvwdm39lmk/v2
 Fish-12S-MiFish-Miya-Wangensteen	Actinopterygii	Also captures non-target: Vertebrates, bacteria	12S rRNA (SSU mitochondria)	V5-V6	163 | 185	GCCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG	https://github.com/aomlomics/protocol-pcr-ssu12sv5v6-mifish
 Cephalopod-18S-deJonge	Cephalopoda		18S rRNA (SSU eukaryote)		140 | 190	CGCGGCGCTACATATTAGAC	GCACTTAACCGACCGTCGAC	https://zenodo.org/records/14834590
