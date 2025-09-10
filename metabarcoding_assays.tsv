@@ -1,6 +1,7 @@
 assay_name	targetTaxonomicAssay	targetTaxonomicScope	target_gene	target_subfragment	ampliconSize	pcr_primer_forward	pcr_primer_reverse	nucl_acid_amp
 Fish-12S-MiFish-Miya	Actinopterygii	Also captures non-target: Bacteria	12S rRNA (SSU mitochondria)	V5-V6	163 | 185	GTCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG	https://doi.org/10.17504/protocols.io.e6nvwdm39lmk/v2
 Fish-12S-MiFish-Miya-Wangensteen	Actinopterygii	Also captures non-target: Vertebrates, bacteria	12S rRNA (SSU mitochondria)	V5-V6	163 | 185	GCCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG	https://github.com/aomlomics/protocol-pcr-ssu12sv5v6-mifish
+Fish-12S-Riaz	Actinopterygii	Also captures non-target: Vertebrates	12S rRNA (SSU mitochondria)	V5-V6	106	ACTGGGATTAGATACCCC	TAGAACAGGCTCCTCTAG	
 Cephalopod-18S-deJonge	Cephalopoda		18S rRNA (SSU eukaryote)		140 | 190	CGCGGCGCTACATATTAGAC	GCACTTAACCGACCGTCGAC	https://zenodo.org/records/14834590
 Anthozoa-28S-McCartin	Cnidaria: Anthozoa	Includes subclasses Hexacorallia and Octocorallia	28S rRNA (LSU eukaryote)		497	CGTGAAACCGYTRRAAGGG	TTGGTCCGTGTTTCAAGACG	https://doi.org/10.7717/peerj.18607
 Scleractinia-28S-McCartin	Cnidaria: Scleractinia	Targets order Scleractinia within subclass Hexacorallia	28S rRNA (LSU eukaryote)			AKGGAAACGAATGGRCTMAG	TCCTTGGTCCGTGTTTCAAG	https://doi.org/10.7717/peerj.18607
