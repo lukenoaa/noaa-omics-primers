@@ -8,16 +8,6 @@ PCR targets (primers and associated information) used for DNA metabarcoding by N
 
 Use this file to access all target information using FAIRe terms. To avoid repeating primer information in this main file, the two files `primers_without_target_info.tsv` and `targets_without_primer_info.tsv` are maintained separately and then merged to generate `targets.tsv`.
 
-### [primers_without_target_info.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/primers_without_target_info.tsv)
-
-Forward and reverse primers are combined in this table, with "forward" or "reverse" provided in the `direction` column. In the file `targets_and_primers.tsv`, "_forward" or "_reverse" are added to the term names.
-
-- `pcr_primer`: Primer sequence (5'-3'). The primer sequence should NOT contain MIDs and adapter sequences and should be reported in uppercase letters. In primers containing an "N" (any base), the published sequence may contain an "I" (inosine, pairs with any base).
-- `pcr_primer_name`: Standardized primer names, using original name but adding the name of the target gene, target subfragment (if applicable), and in some cases author information.
-- `pcr_primer_name_published`: Original primer name as published in the reference.
-- `pcr_primer_reference`: Link to original publication (DOI if available) of primer.
-- `direction`: "forward" or "reverse".
-
 ### [targets_without_primer_info.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/targets_without_primer_info.tsv)
 
 An target here is the assay information for PCR target. Forward and reverse primer sequences are provided; any other information from the primers list is not duplicated and must be retrieved from the primers list.
@@ -30,6 +20,16 @@ An target here is the assay information for PCR target. Forward and reverse prim
 - `ampliconSize`: The length of the amplicon in basepairs EXCLUDING the primers, adapters, and MIDs. A range can be entered separated by a bar "|" (e.g., "140 | 160"). Units in basepairs.
 - `pcr_primer_forward`: Forward PCR primer (5'-3') used to amplify the sequence of the targeted gene.
 - `pcr_primer_reverse`: Reverse PCR primer (5'-3') used to amplify the sequence of the targeted gene.
+
+### [primers_without_target_info.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/primers_without_target_info.tsv)
+
+Forward and reverse primers are combined in this table, with "forward" or "reverse" provided in the `direction` column. In the file `targets_and_primers.tsv`, "_forward" or "_reverse" are added to the term names.
+
+- `pcr_primer`: Primer sequence (5'-3'). The primer sequence should NOT contain MIDs and adapter sequences and should be reported in uppercase letters. In primers containing an "N" (any base), the published sequence may contain an "I" (inosine, pairs with any base).
+- `pcr_primer_name`: Standardized primer names, using original name but adding the name of the target gene, target subfragment (if applicable), and in some cases author information.
+- `pcr_primer_name_published`: Original primer name as published in the reference.
+- `pcr_primer_reference`: Link to original publication (DOI if available) of primer.
+- `direction`: "forward" or "reverse".
 
 ## Assays
 
