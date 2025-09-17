@@ -4,11 +4,11 @@ PCR targets (primers and associated information) used for DNA metabarcoding by N
 
 ## Targets (formerly assays)
 
-### [targets.tsv](https://github.com/NOAA-Omics/noaa-omics-primers/blob/main/targets.tsv)**
+### [targets.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/targets.tsv)
 
 Use this file to access all target information using FAIRe terms. To avoid repeating primer information in this main file, the two files `primers_without_target_info.tsv` and `targets_without_primer_info.tsv` are maintained separately and then merged to generate `targets.tsv`.
 
-### [primers_without_target_info.tsv](https://github.com/NOAA-Omics/noaa-omics-primers/blob/main/primers_without_target_info.tsv)**
+### [primers_without_target_info.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/primers_without_target_info.tsv)
 
 Forward and reverse primers are combined in this table, with "forward" or "reverse" provided in the `direction` column. In the file `targets_and_primers.tsv`, "_forward" or "_reverse" are added to the term names.
 
@@ -18,7 +18,7 @@ Forward and reverse primers are combined in this table, with "forward" or "rever
 - `pcr_primer_reference`: Link to original publication (DOI if available) of primer.
 - `direction`: "forward" or "reverse".
 
-### [targets_without_primer_info.tsv](https://github.com/NOAA-Omics/noaa-omics-primers/blob/main/targets_without_primer_info.tsv)**
+### [targets_without_primer_info.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/targets_without_primer_info.tsv)
 
 An target here is the assay information for PCR target. Forward and reverse primer sequences are provided; any other information from the primers list is not duplicated and must be retrieved from the primers list.
 
