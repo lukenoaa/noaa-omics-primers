@@ -35,8 +35,8 @@ Forward and reverse primers are combined in this table, with "forward" or "rever
 
 An assay contains all the information about the target plus lab-specific details. These additional fields may differ from lab to lab for the same target, and thus are not included in the above tables.
 
-- `assay_name`: Name for the assay that uses the above target but also has lab-specific details.
-- `nucl_acid_amp`: Link to protocol or publication (DOI if available) of assay.
+- `assay_name`: Name for the assay (DOI only) that uses the above target but also has lab-specific details. Example: `10.5281/zenodo.15636182`
+- `nucl_acid_amp`: Link to assay protocol DOI on Zenodo. Example: `https://doi.org/10.5281/zenodo.15636182`
 - `thermocycler`
 - `commercial_mm`
 - `custom_mm`
