@@ -1,12 +1,12 @@
 # NOAA 'Omics Metabarcoding Assays
 
-PCR targets (primers and associated information) used for DNA metabarcoding by NOAA 'Omics researchers, compatible with [FAIRe guidelines](https://fair-edna.github.io).
+Metabarcoding assays used for DNA metabarcoding by NOAA 'Omics researchers, compatible with [FAIRe guidelines](https://fair-edna.github.io). An assay is defined by the unique combination of forward and reverse PCR primers, which have fixed data associated with them (taxonomic target, gene, subfragment, amplicon size, primer sequences, primer names, and primer references). The assay metadata contains additional terms that can vary from lab to lab, but a given combination of PCR primers will still have the same core assay data (`assays.tsv`). All terms following the [FAIRe](https://fair-edna.github.io/) standard.
 
 ## Assays
 
 ### [assays.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/assays.tsv)
 
-This file contains fixed assay information using FAIRe terms. 
+This file contains core assay information.
 
 ### [assays_without_primer_info.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/assays_without_primer_info.tsv)
 
