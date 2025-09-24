@@ -1,18 +1,18 @@
-# NOAA 'Omics Metabarcoding Targets
+# NOAA 'Omics Metabarcoding Assays
 
 PCR targets (primers and associated information) used for DNA metabarcoding by NOAA 'Omics researchers, compatible with [FAIRe guidelines](https://fair-edna.github.io).
 
-## Targets (formerly assays)
+## Assays
 
-### [targets.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/targets.tsv)
+### [assays.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/assays.tsv)
 
-Use this file to access all target information using FAIRe terms. To avoid repeating primer information in this main file, the two files `primers_without_target_info.tsv` and `targets_without_primer_info.tsv` are maintained separately and then merged to generate `targets.tsv`.
+This file contains fixed assay information using FAIRe terms. 
 
-### [targets_without_primer_info.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/targets_without_primer_info.tsv)
+### [assays_without_primer_info.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/assays_without_primer_info.tsv)
 
-An target here is the assay information for PCR target. Forward and reverse primer sequences are provided; any other information from the primers list is not duplicated and must be retrieved from the primers list.
+To avoid repeating primer information in this main file, the two files `primers_without_target_info.tsv` and `targets_without_primer_info.tsv` are maintained separately and then merged to generate `assays.tsv`. In `primers_without_target_info.tsv`, forward and reverse primer sequences are provided; any other information from the primers list is not duplicated and must be retrieved from the primers list.
 
-- `target_name`: A brief, concise identifier for the target with no spaces or special characters, ensuring machine readability. Must be unique. Suggest including the target taxonomic group, target gene, subfragment (if applicable), and author or commonly used name of assay.
+- `assay_name`: A brief, concise identifier for the target with no spaces or special characters, ensuring machine readability. Must be unique. Suggest including the target taxonomic group, target gene, subfragment (if applicable), and author or commonly used name of assay.
 - `targetTaxonomicAssay`: Taxa or species name targeted by the primers.
 - `targetTaxonomicScope`: The taxonomic group(s) targeted in the study. This can differ from the targetTaxonomicAssay. For example, the targetTaxonomicAssay may be "Chordata" while the targetTaxonomicScope is "Chondrichthyes" (bony fish, sharks and rays).
 - `target_gene`: Targeted gene or locus name for marker gene studies.
@@ -21,7 +21,7 @@ An target here is the assay information for PCR target. Forward and reverse prim
 - `pcr_primer_forward`: Forward PCR primer (5'-3') used to amplify the sequence of the targeted gene.
 - `pcr_primer_reverse`: Reverse PCR primer (5'-3') used to amplify the sequence of the targeted gene.
 
-### [primers_without_target_info.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/primers_without_target_info.tsv)
+### [primers_without_assay_info.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/primers_without_assay_info.tsv)
 
 Forward and reverse primers are combined in this table, with "forward" or "reverse" provided in the `direction` column. In the file `targets_and_primers.tsv`, "_forward" or "_reverse" are added to the term names.
 
@@ -31,11 +31,10 @@ Forward and reverse primers are combined in this table, with "forward" or "rever
 - `pcr_primer_reference`: Link to original publication (DOI if available) of primer.
 - `direction`: "forward" or "reverse".
 
-## Assays
+## Assay metadata
 
-An assay contains all the information about the target plus lab-specific details. These additional fields may differ from lab to lab for the same target, and thus are not included in the above tables.
+An assay contains all the fixed assay information plus variable lab-specific details. These variable fields may differ from lab to lab for the same assay, and thus are not included in the above tables.
 
-- `assay_name`: Name for the assay (DOI only) that uses the above target but also has lab-specific details. Example: `10.5281/zenodo.15636182`
 - `nucl_acid_amp`: Link to assay protocol DOI on Zenodo. Example: `https://doi.org/10.5281/zenodo.15636182`
 - `thermocycler`
 - `commercial_mm`
