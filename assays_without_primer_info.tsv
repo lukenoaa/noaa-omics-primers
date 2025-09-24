@@ -10,8 +10,8 @@ Eukarya-18S-V4-Stoeck	Eukarya	phytoplankton	18S rRNA (SSU eukaryote)	V4	377 | 38
 Eukarya-18S-V4-Stoeck-Balzano	Eukarya	phytoplankton	18S rRNA (SSU eukaryote)	V4	377 | 380	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRR
 Eukarya-18S-V4-Stoeck-NCOG	Eukarya	phytoplankton	18S rRNA (SSU eukaryote)	V4	377 | 380	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYR
 Eukarya-18S-V4-Stoeck-Piredda	Eukarya	phytoplankton	18S rRNA (SSU eukaryote)	V4	377 | 380	CCAGCASCYGCGGTAATTCC	ACTTTCGTTCTTGATYRATGA
-Eukarya-18S-V9-AmaralZettler-MBARI	Eukarya	phytoplankton | zooplankton	18S rRNA (SSU eukaryote)	V9	125 | 129	GTACACACCGCCCGTC	TGATCCTTCTGCAGGTTCACCTAC
-Eukarya-18S-V9-AmaralZettler-NCOG	Eukarya	phytoplankton | zooplankton | other eukaryotes	18S rRNA (SSU eukaryote)	V9	125 | 129	TTGTACACACCGCCC	CCTTCYGCAGGTTCACCTAC
+Eukarya-18S-V9-Lane-Medlin	Eukarya	phytoplankton | zooplankton	18S rRNA (SSU eukaryote)	V9	125 | 129	GTACACACCGCCCGTC	TGATCCTTCTGCAGGTTCACCTAC
+Eukarya-18S-V9-AmaralZettler	Eukarya	phytoplankton | zooplankton | other eukaryotes	18S rRNA (SSU eukaryote)	V9	125 | 129	TTGTACACACCGCCC	CCTTCYGCAGGTTCACCTAC
 MarineMammal-Dloop-Baker	Marine mammals		D-loop		389	TCACCCAAAGCTGRARTTCTA	GCGGGTTGCTGGTTTCACG
 Metazoa-16S-Kelly	Metazoa		16S rRNA (LSU mitochondria)		114	AGTTACYYTAGGGATAACAGCG	CCGGTCTGAACTCAGATCAYGT
 Metazoa-18S-V7V8-Machida	Metazoa		18S rRNA (SSU eukaryote)	V7-8	330	GYGGTGCATGGCCGTTSKTRGTT	GTGTGYACAAAGGBCAGGGAC
