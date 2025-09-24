@@ -6,13 +6,11 @@ Metabarcoding assays used for DNA metabarcoding by NOAA 'Omics researchers, usin
 
 ### [assays.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/assays.tsv)
 
-This file contains core assay information.
+Core assay information. This file is created by `merge_assays_primers.ipynb`, which merges `primers_without_assay_info.tsv` and `assays_without_primer_info.tsv`. The fields are described under the two files listed below.
 
 ### [assays_without_primer_info.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/assays_without_primer_info.tsv)
 
-To avoid repeating primer information in this main file, the two files `primers_without_target_info.tsv` and `targets_without_primer_info.tsv` are maintained separately and then merged to generate `assays.tsv`. In `primers_without_target_info.tsv`, forward and reverse primer sequences are provided; any other information from the primers list is not duplicated and must be retrieved from the primers list.
-
-- `assay_name`: A brief, concise identifier for the target with no spaces or special characters, ensuring machine readability. Must be unique. Suggest including the target taxonomic group, target gene, subfragment (if applicable), and author or commonly used name of assay.
+- `assay_name`: A brief, concise identifier for the assay with no spaces or special characters, ensuring machine readability. Must be unique. Suggest including the targeted taxonomic group, gene, subfragment (if applicable), and author or commonly used name of assay.
 - `targetTaxonomicAssay`: Taxa or species name targeted by the primers.
 - `targetTaxonomicScope`: The taxonomic group(s) targeted in the study. This can differ from the targetTaxonomicAssay. For example, the targetTaxonomicAssay may be "Chordata" while the targetTaxonomicScope is "Chondrichthyes" (bony fish, sharks and rays).
 - `target_gene`: Targeted gene or locus name for marker gene studies.
@@ -23,13 +21,13 @@ To avoid repeating primer information in this main file, the two files `primers_
 
 ### [primers_without_assay_info.tsv](https://github.com/lukenoaa/noaa-omics-primers/blob/main/primers_without_assay_info.tsv)
 
-Forward and reverse primers are combined in this table, with "forward" or "reverse" provided in the `direction` column. In the file `targets_and_primers.tsv`, "_forward" or "_reverse" are added to the term names.
-
 - `pcr_primer`: Primer sequence (5'-3'). The primer sequence should NOT contain MIDs and adapter sequences and should be reported in uppercase letters. In primers containing an "N" (any base), the published sequence may contain an "I" (inosine, pairs with any base).
 - `pcr_primer_name`: Standardized primer names, using original name but adding the name of the target gene, target subfragment (if applicable), and in some cases author information.
 - `pcr_primer_name_published`: Original primer name as published in the reference.
 - `pcr_primer_reference`: Link to original publication (DOI if available) of primer.
 - `direction`: "forward" or "reverse".
+
+Note: Forward and reverse primers are combined in this table, with "forward" or "reverse" provided in the `direction` column. When `assays.tsv` is created, "_forward" or "_reverse" are appended to the term names.
 
 ## Assay metadata
 
