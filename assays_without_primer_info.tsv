@@ -1,6 +1,7 @@
 assay_name	targetTaxonomicAssay	targetTaxonomicScope	target_gene	target_subfragment	ampliconSize	pcr_primer_forward	pcr_primer_reverse
 Fish-12S-MiFish-Miya	Actinopterygii	Also captures non-target: Bacteria	12S rRNA (SSU mitochondria)	V5-V6	251 | 258	GTCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG
 Fish-12S-MiFish-Miya-Wangensteen	Actinopterygii	"Also captures non-target: Vertebrates, bacteria"	12S rRNA (SSU mitochondria)	V5-V6	251 | 258	GCCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTG
+Fish-12S-MiFish-Miya-Stoeckle	Actinopterygii	Also captures non-target: Vertebrates, bacteria	12S rRNA (SSU mitochondria)	V5-V6	165 | 185	GTCGGTAAAACTCGTGCCAGC	CATAGTGGGGTATCTAATCCCAGTTTGT
 Fish-12S-Riaz	Actinopterygii	Also captures non-target: Vertebrates	12S rRNA (SSU mitochondria)	V5-V6	106	ACTGGGATTAGATACCCC	TAGAACAGGCTCCTCTAG
 Cephalopod-18S-deJonge	Cephalopoda		18S rRNA (SSU eukaryote)		140 | 190	CGCGGCGCTACATATTAGAC	GCACTTAACCGACCGTCGAC
 Anthozoa-28S-McCartin	Cnidaria: Anthozoa	Includes subclasses Hexacorallia and Octocorallia	28S rRNA (LSU eukaryote)		497	CGTGAAACCGYTRRAAGGG	TTGGTCCGTGTTTCAAGACG
