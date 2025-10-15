@@ -18,9 +18,9 @@ The fields of [assays.tsv](https://github.com/NOAA-Omics/noaa-omics-metabarcodin
 - `pcr_primer_name_[forward|reverse]`: Standardized primer name, using original name but adding the name of the target gene, target subfragment (if applicable), and in some cases author information.
 - `pcr_primer_reference_[forward|reverse]`: Link to original publication (DOI if available) of primer.
 
-## Assay metadata
+## Assay Preps
 
-The assay metadata contains additional fields whose values can vary from lab to lab. This metadata should be contained in a protocol available online, with the DOI in the field `nucl_acid_amp`. This DOI should be a Zenodo DOI of a BeBOP-formatted protocol, a protocols.io DOI, or some other stable DOI or URL of the protocol.
+An assay prep contains additional fields whose values can vary from lab to lab. This metadata should be contained in a protocol available online, with the DOI in the field `nucl_acid_amp`. This DOI should be a Zenodo DOI of a BeBOP-formatted protocol, a protocols.io DOI, or some other stable DOI or URL of the protocol.
 
 - `nucl_acid_amp`: Link to assay protocol. Example: https://doi.org/10.5281/zenodo.15636182
 - `thermocycler`
